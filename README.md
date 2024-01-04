@@ -32,7 +32,7 @@ The website is divided into four main sections:
 The following technologies were used in building the portfolio website:
 
 - HTML
-- CSS (including responsive design)
+- CSS, SCSS (including responsive design)
 - JavaScript
 - Font Awesome (for icons)
 
