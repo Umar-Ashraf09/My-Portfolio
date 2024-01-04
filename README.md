@@ -13,7 +13,6 @@ Welcome to my GitHub repository for my personal portfolio website. This project 
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
 - [Contact](#contact)
-- [License](#license)
 
 ## Introduction
 
