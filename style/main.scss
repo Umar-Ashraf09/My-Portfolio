@@ -89,7 +89,12 @@ main {
     gap: 30px;
     grid-template-areas: 
     'bioimage bio bio'
-    'job1 job2 job3';
+    'skills skills skills'
+    'awards awards awards'
+    'internships internships internships'
+    'job1 job2 job3'
+    'job4 job5 job6'
+    'certificates certificates certificates';
     grid-template-columns: repeat(3, 1fr);
 
         .bio-image {
@@ -104,6 +109,26 @@ main {
             font-size: 1.5rem;
         }
 
+        .skills {
+            grid-area: skills;
+            font-size: 1.5rem;
+        }
+
+        .awards {
+            grid-area: awards;
+            font-size: 1.5rem;
+        }
+
+        .internships {
+            grid-area: internships;
+            font-size: 1.5rem;
+        }
+
+        .certificates {
+            grid-area: certificates;
+            font-size: 1.5rem;
+        }
+
         .job-1 {
             grid-area: job1;
         }
@@ -114,6 +139,14 @@ main {
 
         .job-3 {
             grid-area: job3;
+        }
+
+        .job-4 {
+            grid-area: job4;
+        }
+
+        .job-5 {
+            grid-area: job5;
         }
 
         .job {
@@ -132,7 +165,6 @@ main {
 
         img {
             width: 100%;
-            border: 3px solid #f4faff;
 
                 &:hover {
                     opacity: 0.5;
@@ -207,6 +239,8 @@ main {
     background: darken($primary-color, 50);
     color: #f4faff;
     border-radius: 1rem;
+    pointer-events: none;
+    cursor: default;
 }
 
 
