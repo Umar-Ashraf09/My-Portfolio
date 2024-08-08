@@ -266,6 +266,12 @@ main#home h1 {
 .about-info .job-5 {
   grid-area: job5;
 }
+.about-info .job-6 {
+  grid-area: job5;
+}
+.about-info .job-7 {
+  grid-area: job5;
+}
 .about-info .job {
   background: #5e584f;
   padding: 0.5rem;
