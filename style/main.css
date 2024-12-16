@@ -134,7 +134,7 @@
 
 .tooltip .tooltipText {
   visibility: hidden;
-  width: 120px;
+  width: 100px;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -142,8 +142,8 @@
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  top: 150%;
-  left: 50%;
+  top: 780%;
+  left: 38.5%;
   margin-left: -60px
 }
 
